@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "version": 1,
+    "updated": "2026-11-27T07:40:00.000Z",
+    "schema": "portfolio-content/1"
+  },
+  "site": {
+    "name": "Jack",
+    "nameEn": "Jack",
+    "role": "Software Engineer",
+    "tagline": "把複雜的系統，寫成讀得懂的東西。",
+    "intro": "我在台北寫軟體，主要做前端架構與資料視覺化。工作之外，我拍底片、煮咖啡、把旅行路線畫成地圖。這個網站是我的作品與生活的索引——不是履歷，是一本可以翻的冊子。",
+    "location": "Taipei, Taiwan",
+    "email": "hello@example.com",
+    "heroImage": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Coffee_and_workspace_setup_on_a_desk_during_a_productive_morning_session.jpg/1920px-Coffee_and_workspace_setup_on_a_desk_during_a_productive_morning_session.jpg",
+    "heroCaption": "2026 · 台北 · 工作桌旁",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/jack25860" },
+      { "label": "Email", "url": "mailto:hello@example.com" }
+    ],
+    "stats": [
+      { "value": "8", "label": "年開發經驗" },
+      { "value": "24", "label": "上線專案" },
+      { "value": "11", "label": "造訪國家" },
+      { "value": "3", "label": "開源套件" }
+    ]
+  },
+  "skills": {
+    "intro": "我偏好把技術選擇講清楚：為什麼用這個、代價是什麼、什麼時候該換掉。以下是我實際在生產環境用過的。",
+    "groups": [
+      {
+        "title": "前端架構",
+        "items": [
+          { "name": "TypeScript", "level": "深度", "note": "型別邊界設計、泛型抽象、遷移策略" },
+          { "name": "React / Next.js", "level": "深度", "note": "Server Components、串流渲染、快取策略" },
+          { "name": "狀態與資料層", "level": "熟練", "note": "TanStack Query、Zustand、離線優先同步" },
+          { "name": "設計系統", "level": "熟練", "note": "Token 層、無障礙元件、視覺回歸測試" }
+        ]
+      },
+      {
+        "title": "後端與資料",
+        "items": [
+          { "name": "Node.js / Hono", "level": "熟練", "note": "tRPC 型別安全的 API 邊界" },
+          { "name": "PostgreSQL", "level": "熟練", "note": "索引設計、查詢計畫、遷移管理" },
+          { "name": "Python", "level": "熟練", "note": "資料清理、ETL、分析腳本" },
+          { "name": "Redis / 佇列", "level": "中等", "note": "快取失效策略、背景任務" }
+        ]
+      },
+      {
+        "title": "工程實務",
+        "items": [
+          { "name": "測試策略", "level": "熟練", "note": "Vitest、Playwright、契約測試" },
+          { "name": "CI/CD", "level": "熟練", "note": "GitHub Actions、預覽環境、漸進式發布" },
+          { "name": "可觀測性", "level": "中等", "note": "結構化日誌、追蹤、前端錯誤聚合" },
+          { "name": "效能預算", "level": "熟練", "note": "Core Web Vitals、打包體積治理" }
+        ]
+      },
+      {
+        "title": "視覺與工具",
+        "items": [
+          { "name": "資料視覺化", "level": "熟練", "note": "D3、SVG 幾何、圖表可讀性" },
+          { "name": "CSS 架構", "level": "深度", "note": "層級管理、容器查詢、流體排版" },
+          { "name": "Figma 協作", "level": "中等", "note": "設計交付、權杖對照" },
+          { "name": "技術寫作", "level": "熟練", "note": "架構決策紀錄、對外文件" }
+        ]
+      }
+    ],
+    "timeline": [
+      { "period": "2023 — 現在", "role": "Senior Frontend Engineer", "org": "SaaS 平台（B2B）", "note": "主導設計系統重建，把 14 個子產品收斂到一套元件；首屏 LCP 從 3.4s 降到 1.2s。" },
+      { "period": "2021 — 2023", "role": "Frontend Engineer", "org": "資料分析新創", "note": "從零打造可拖拉的儀表板編輯器，支撐 3 萬份報表的即時渲染。" },
+      { "period": "2019 — 2021", "role": "Full-stack Engineer", "org": "數位代理商", "note": "做過 20+ 個品牌網站，學會在時程與品質之間談判。" },
+      { "period": "2018", "role": "Computer Science, B.S.", "org": "國立大學", "note": "專題做人機互動與視覺化，畢業後直接進業界。" }
+    ]
+  },
+  "interests": [
+    {
+      "title": "底片攝影",
+      "text": "一台 1987 年的旁軸，兩顆定焦。拍得慢，所以看得久。旅行照片幾乎都來自它。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg/1920px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+      "tag": "Film · 35mm"
+    },
+    {
+      "title": "手沖咖啡",
+      "text": "每天早上的固定儀式。同一支豆子換三種水溫，記錄風味的差異——很像在做 A/B 測試。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Coffee_pour_over_using_Hario_cone.jpg/1920px-Coffee_pour_over_using_Hario_cone.jpg",
+      "tag": "Pour-over"
+    },
+    {
+      "title": "合成器與聲音",
+      "text": "用模組合成器做環境音，偶爾替自己的專案做互動音效。訊號流動的邏輯和程式很像。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Eurorack_Modular_Synthesizer_Closeup.jpg/1920px-Eurorack_Modular_Synthesizer_Closeup.jpg",
+      "tag": "Modular"
+    }
+  ],
+  "life": [
+    {
+      "title": "工作桌",
+      "text": "一張 140 公分的桌子，鍵盤、筆記本、一杯水。筆記本上畫的架構圖比程式碼更早出現。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Person_writing_in_notebook_while_using_laptop_at_a_modern_workspace.jpg/1920px-Person_writing_in_notebook_while_using_laptop_at_a_modern_workspace.jpg",
+      "date": "2026.11"
+    },
+    {
+      "title": "早晨的十分鐘",
+      "text": "磨豆、注水、等它滴完。這十分鐘不開螢幕，是一天裡最像自己的時候。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Coffee_pour_over_using_Hario_cone.jpg/1920px-Coffee_pour_over_using_Hario_cone.jpg",
+      "date": "2026.10"
+    },
+    {
+      "title": "把資料畫成風景",
+      "text": "週末的練習：把公開資料集畫成海報。這張是台北捷運的運量網路。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Network_graph_visualization_showing_bibliography_and_keywords.png/1920px-Network_graph_visualization_showing_bibliography_and_keywords.png",
+      "date": "2026.09"
+    },
+    {
+      "title": "聲音的實驗",
+      "text": "用四條序列驅動振盪器，做出不會重複的環境音。錄了 40 分鐘，留下 3 分鐘。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Eurorack_Modular_Synthesizer_Closeup.jpg/1920px-Eurorack_Modular_Synthesizer_Closeup.jpg",
+      "date": "2026.08"
+    }
+  ],
+  "travel": [
+    {
+      "place": "京都",
+      "country": "日本",
+      "year": "2025",
+      "text": "十一月的東山，雨後石板反光。走了六小時，只拍了十二張。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg/1920px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+      "lat": 35.01,
+      "lon": 135.77
+    },
+    {
+      "place": "維克",
+      "country": "冰島",
+      "year": "2024",
+      "text": "黑沙灘、霧、玄武岩。風大到站不穩，相機全程貼在胸口。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Reynisfjara%2C_Iceland%2C_20230501_1639_4044.jpg/1920px-Reynisfjara%2C_Iceland%2C_20230501_1639_4044.jpg",
+      "lat": 63.42,
+      "lon": -19.01
+    },
+    {
+      "place": "台北",
+      "country": "台灣",
+      "year": "日常",
+      "text": "從象山看藍調時刻的城市。住了十年，還是會特地爬上去看。",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Taipei_Night_Skyline_20230402.jpg/1920px-Taipei_Night_Skyline_20230402.jpg",
+      "lat": 25.03,
+      "lon": 121.57
+    }
+  ],
+  "works": [
+    {
+      "id": "atlas",
+      "title": "Atlas — 設計系統與元件庫",
+      "category": "Design System",
+      "year": "2025",
+      "summary": "把 14 個子產品收斂成一套 62 個元件的設計系統，含權杖層、無障礙驗證與視覺回歸測試。",
+      "cover": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Network_graph_visualization_showing_bibliography_and_keywords.png/1920px-Network_graph_visualization_showing_bibliography_and_keywords.png",
+      "tags": ["TypeScript", "React", "Storybook", "Playwright"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/jack25860" }
+      ],
+      "blocks": [
+        { "type": "text", "text": "問題不是「元件長得不一樣」，而是每個團隊都在重新發明同一件事。Atlas 的目標是讓「做對的事」變成預設路徑：正確的對比度、正確的焦點順序、正確的鍵盤行為，全部內建在元件裡，而不是寫在文件裡等人記得。" },
+        { "type": "image", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Person_writing_in_notebook_while_using_laptop_at_a_modern_workspace.jpg/1920px-Person_writing_in_notebook_while_using_laptop_at_a_modern_workspace.jpg", "alt": "設計系統的規劃筆記與工作桌", "caption": "第一版的元件清單是手畫的，貼在牆上兩週。" },
+        { "type": "text", "text": "權杖層用三層結構：原始值 → 語意 → 元件。換主題只動中間那層，元件完全不用改。這件事聽起來很基本，但我們花了三個月才把舊的 400 個硬編碼色值清乾淨。" },
+        { "type": "link", "label": "設計權杖規範（內部文件）", "url": "https://github.com/jack25860" }
+      ]
+    },
+    {
+      "id": "dashboard",
+      "title": "可拖拉的儀表板編輯器",
+      "category": "Web App",
+      "year": "2023",
+      "summary": "讓非工程師自己組報表的視覺化編輯器，支撐 3 萬份報表的即時渲染。",
+      "cover": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Network_graph_visualization_showing_bibliography_and_keywords.png/1920px-Network_graph_visualization_showing_bibliography_and_keywords.png",
+      "tags": ["React", "D3", "PostgreSQL", "WebSocket"],
+      "links": [
+        { "label": "案例說明", "url": "https://github.com/jack25860" }
+      ],
+      "blocks": [
+        { "type": "text", "text": "核心挑戰是「即時」與「大量」同時成立。3 萬份報表裡，任何時刻都有幾百份在被編輯。我們把渲染拆成兩層：資料層用增量推送，視覺層用虛擬畫布，只重繪變動的區塊。" },
+        { "type": "image", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Network_graph_visualization_showing_bibliography_and_keywords.png/1920px-Network_graph_visualization_showing_bibliography_and_keywords.png", "alt": "儀表板編輯器的資料視覺化畫面", "caption": "每個區塊都是獨立的渲染單元。" },
+        { "type": "text", "text": "最難的其實不是技術，是讓使用者理解「為什麼這個圖表要等 200ms」。我們加了骨架屏與進度提示，投訴量下降 70%。" }
+      ]
+    },
+    {
+      "id": "film-log",
+      "title": "Film Log — 底片紀錄工具",
+      "category": "Side Project",
+      "year": "2024",
+      "summary": "記錄每一卷底片的機身、鏡頭、曝光與掃描結果，離線優先，可匯出成相冊。",
+      "cover": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg/1920px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg",
+      "tags": ["Next.js", "IndexedDB", "PWA"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/jack25860" }
+      ],
+      "blocks": [
+        { "type": "text", "text": "拍底片的人都有同一種痛：半年後拿到掃描檔，完全想不起來那卷是什麼參數。Film Log 讓我在拍完當下用 30 秒記完，之後自動對上掃描檔。" },
+        { "type": "image", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg/1920px-Kiyomizu-dera%2C_Kyoto%2C_November_2016_-01.jpg", "alt": "京都巷弄的底片攝影作品", "caption": "第一卷收錄：京都，2025 秋。" },
+        { "type": "text", "text": "離線優先不是加分項，是必要條件——很多拍攝場景沒有訊號。用 IndexedDB 存本地，回到有網路時再同步。" }
+      ]
+    },
+    {
+      "id": "graticule",
+      "title": "Graticule — 經緯度視覺化實驗",
+      "category": "Experiment",
+      "year": "2026",
+      "summary": "把旅行座標畫成可互動的經緯網格，用極簡線條呈現移動的軌跡。",
+      "cover": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Reynisfjara%2C_Iceland%2C_20230501_1639_4044.jpg/1920px-Reynisfjara%2C_Iceland%2C_20230501_1639_4044.jpg",
+      "tags": ["SVG", "D3", "Canvas"],
+      "links": [],
+      "blocks": [
+        { "type": "text", "text": "一個純視覺的實驗：不用地圖底圖，只用經緯線與點，能不能讓人認出這是哪裡？答案是——可以，只要你把點放對。" },
+        { "type": "image", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Reynisfjara%2C_Iceland%2C_20230501_1639_4044.jpg/1920px-Reynisfjara%2C_Iceland%2C_20230501_1639_4044.jpg", "alt": "冰島黑沙灘的霧中玄武岩", "caption": "冰島，2024。座標 63.42°N, 19.01°W。" },
+        { "type": "text", "text": "這個實驗後來變成這個網站旅遊區塊的骨架。" }
+      ]
+    },
+    {
+      "id": "type-scale",
+      "title": "Type Scale — 流體排版計算器",
+      "category": "Tool",
+      "year": "2025",
+      "summary": "輸入基準字級與比例，產生可直接貼用的 clamp() 字階與對應的 Tailwind 設定。",
+      "cover": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Person_writing_in_notebook_while_using_laptop_at_a_modern_workspace.jpg/1920px-Person_writing_in_notebook_while_using_laptop_at_a_modern_workspace.jpg",
+      "tags": ["TypeScript", "Vite", "CSS"],
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/jack25860" }
+      ],
+      "blocks": [
+        { "type": "text", "text": "每次開新專案都要重算一次字階，索性做成工具。左邊調參數，右邊即時預覽，下面直接給 CSS 與 Tailwind 設定。" },
+        { "type": "text", "text": "刻意不做「一鍵套用主題」——排版是判斷，不是選項。" }
+      ]
+    },
+    {
+      "id": "soundscape",
+      "title": "Soundscape — 互動環境音",
+      "category": "Experiment",
+      "year": "2026",
+      "summary": "用四條序列驅動的生成式環境音，替作品頁做可互動的聲音層。",
+      "cover": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Eurorack_Modular_Synthesizer_Closeup.jpg/1920px-Eurorack_Modular_Synthesizer_Closeup.jpg",
+      "tags": ["Web Audio", "Canvas"],
+      "links": [],
+      "blocks": [
+        { "type": "text", "text": "聲音在網頁上最常被誤用：自動播放、關不掉、音量失控。這個實驗的前提是——永遠由使用者按下播放，永遠有明顯的停止鍵。" },
+        { "type": "image", "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Eurorack_Modular_Synthesizer_Closeup.jpg/1920px-Eurorack_Modular_Synthesizer_Closeup.jpg", "alt": "模組合成器與耳機的靜物照", "caption": "四條序列，八個振盪器。" },
+        { "type": "text", "text": "技術上用 Web Audio 的排程佇列，避免 setTimeout 的抖動。聽起來像環境音，其實是精確到毫秒的排程。" }
+      ]
+    }
+  ]
+}
